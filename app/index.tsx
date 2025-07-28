@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import './global.css'
 
 export default function Index() {
   return (
@@ -7,9 +8,10 @@ export default function Index() {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
+        backgroundColor: "blue"
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Text className='text-white text-3xl'>Edit app/index.tsx to edit this screen.</Text>
     </View>
   );
 }
