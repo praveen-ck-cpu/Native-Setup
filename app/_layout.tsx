@@ -14,6 +14,7 @@ export default function RootLayout() {
 
   if (!loaded) {
     // Async font loading only occurs in development.
+    //hh If fonts are not loaded, we return null to avoid rendering the app.
     return null;
   }
 
